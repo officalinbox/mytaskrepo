@@ -5,8 +5,8 @@
   "source": "",
   "license": "Apache-2.0",
   "summary": "precheck tasks",
-  "dependencies": []
+  "dependencies": [],
   "tasks": [
     "mytaskmodule::precheck"
-   ]
+  ]
 }
