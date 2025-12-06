@@ -1,12 +1,9 @@
 {
-  "name": "mytaskrepo",
+  "name": "officalinbox-mytaskrepo",
   "version": "1.0.0",
   "author": "senthilnathan",
-  "source": "",
   "license": "Apache-2.0",
   "summary": "precheck tasks",
   "dependencies": [],
-  "tasks": [
-    "mytaskrepo::precheck"
-  ]
+  "tasks": ["mytaskrepo::precheck"]
 }
