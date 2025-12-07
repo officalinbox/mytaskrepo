@@ -1,5 +1,5 @@
 {
-  "description": "Precheck linux",
+  "description": "Precheck linux service status",
   "parameters": {
     "service_name": {
       "description": "Service to check",
@@ -7,6 +7,9 @@
     }
   },
   "implementations": [
-    { "name": "precheck.sh", "requirements": ["shell"] }
+    {
+      "name": "precheck.sh",
+      "requirements": ["shell"]
+    }
   ]
 }
