@@ -1,9 +1,8 @@
 {
   "name": "officalinbox-mytaskrepo",
-  "version": "1.0.0",
-  "author": "senthilnathan",
+  "version": "0.1.0",
+  "author": "officalinbox",
+  "summary": "My task repo module",
   "license": "Apache-2.0",
-  "summary": "precheck tasks",
-  "dependencies": [],
-  "tasks": ["mytaskrepo::precheck"]
+  "source": "git@github.com:officalinbox/mytaskrepo.git"
 }
