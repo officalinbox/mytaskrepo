@@ -1,11 +1,12 @@
 {
   "description": "Precheck linux",
-  "input_method": "environment",
   "parameters": {
     "service_name": {
-      "description": "precheck",
+      "description": "Service to check",
       "type": "String"
     }
   },
-  "supports_noop": false
+  "implementations": [
+    { "name": "precheck.sh", "requirements": ["shell"] }
+  ]
 }
