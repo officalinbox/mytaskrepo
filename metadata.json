@@ -5,5 +5,8 @@
   "summary": "My task repo module",
   "license": "Apache-2.0",
   "source": "git@github.com:officalinbox/mytaskrepo.git",
-  "dependencies": []
+  "dependencies": [],
+  "tasks": {
+    "precheck": "tasks/precheck.json"
+  }
 }
